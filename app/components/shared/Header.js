@@ -132,7 +132,11 @@ export default function Header() {
             </Hamburger>
           </div>
         ) : (
-          <nav className='headerNavigation' role='navigation'>
+          <nav
+            className='headerNavigation'
+            role='navigation'
+            aria-label='main navigation'
+          >
             <ul className='navigationList'>
               <li>
                 <Link className='link' href='/'>
